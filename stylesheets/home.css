@@ -38,7 +38,7 @@ body {
 }
 
 #name {
-    width: 25%;
+    width: 100%;
     text-align: center;
     font-size: 80pt;
     display: block;
@@ -46,7 +46,7 @@ body {
 }
 
 .button {
-    width: 25%;
+    width: 100%;
     text-align: center;
     font-size: 40pt;
     display: block;
