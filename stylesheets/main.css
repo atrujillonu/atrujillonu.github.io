@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+* {
+    font-family: 'VT323', monospace;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+#logo {
+    height: 80px;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#logo:hover {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
