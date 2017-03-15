@@ -18,12 +18,12 @@ window.onload = function () {
 
 function typeName() {
     var x = document.getElementById('name');
-    var speed = 300;
+    var speed = 200;
     var blinkCounter = 0;
     var textcounter = 0;
     var blinkCursor = setInterval(function() {
 
-        if (blinkCounter < 6) {
+        if (blinkCounter < 4) {
             x.style.display = (x.style.display == 'none' ? '' : 'none');
         } else if(textcounter < name.length){
             speed = 100;
